@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000;
+}
+h3 {
+	margin: 0px;
+	padding: 0px;	
+}
+.suggestionsBox {
+	position: inherit;
+	left: 30px;
+	margin: 10px 0px 0px 0px;
+	width: 200px;
+	background-color: #B2C3DD;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	border: 2px solid #B2C3DD;	
+	color: #fff;
+	font-size: 11px;
+}
+.suggestionList {
+	margin: 0px;
+	padding: 0px;
+}
+.suggestionList li {
+	
+	margin: 0px 0px 3px 0px;
+	padding: 3px;
+	cursor: pointer;
+}
+.suggestionList li:hover {
+	background-color: #659CD8;
+}

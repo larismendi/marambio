@@ -1,0 +1,81 @@
+.fecha {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #666666;
+	text-decoration: none;
+}
+.textoblanco {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+input {
+	background-image: url(images/fond_degrade.gif);
+	border: 1px solid #365AAD;
+	background-repeat:  repeat-x;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #0066CC;
+	text-decoration: none;
+}
+textarea {
+	background-image: url(images/fond_degrade.gif);
+	border: 1px solid #365AAD;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #666666;
+	text-decoration: none;
+	background-repeat:  repeat-x;
+}
+select {
+	background-image: url(images/fond_degrade.gif);
+	border: 1px solid #365AAD;
+	background-repeat:   repeat-x;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #666666;
+	text-decoration: none;
+}
+.textoazul {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #2654A1;
+	text-decoration: none;
+}
+.textogris {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #666666;
+	text-decoration: none;
+}
+.textoazulclaro {
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #7CA5D6;
+	text-decoration: none;
+}
+.textotitulos {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-style: italic;
+	font-weight: bold;
+	color: #4577CC;
+	text-decoration: none;
+}
+.textogrsiclaro {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #DDDDDD;
+	text-decoration: none;
+}
+.textogrande {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #003366;
+	text-decoration: none;
+}

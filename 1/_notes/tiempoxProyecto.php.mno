@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_quienEs" value="name:id;datatype:int,name:session2000;datatype:string,name:IdUsuario;datatype:int,name:FDia;datatype:string,name:FMes;datatype:string,name:FAnno;datatype:string,name:FEspanol;datatype:string,name:FIngles;datatype:string,name:ip;datatype:blob,name:nivel;datatype:int" />
+	<infoitem key="UD_supervisor" value="name:IdUsuario;datatype:int,name:IdUnidad;datatype:int,name:Nombre;datatype:string,name:Usuario;datatype:string,name:Pass;datatype:string,name:Nivel;datatype:int,name:Cargo;datatype:string,name:Telefono;datatype:string,name:Ext;datatype:string" />
+	<infoitem key="UD_proyecto" value="name:IdTarea;datatype:int,name:IdGrupo;datatype:int,name:IdEmpresa;datatype:int,name:IdUnidad;datatype:int,name:IdServicio;datatype:int,name:IdLider;datatype:int,name:Dia;datatype:string,name:Mes;datatype:string,name:Anno;datatype:string,name:FEspanol;datatype:string,name:FIngles;datatype:string,name:CodificacionComp;datatype:string,name:IdSupervisor;datatype:int,name:Tasa;datatype:real,name:HorasEstimadas;datatype:int,name:MesEjecucion;datatype:string,name:AnnoEjecucion;datatype:string,name:activo;datatype:int" />
+	<infoitem key="UD_tareasClientesList" value="name:IdTarea;datatype:int,name:IdGrupo;datatype:int,name:IdEmpresa;datatype:int,name:IdUnidad;datatype:int,name:IdServicio;datatype:int,name:IdLider;datatype:int,name:Dia;datatype:string,name:Mes;datatype:string,name:Anno;datatype:string,name:FEspanol;datatype:string,name:FIngles;datatype:string,name:CodificacionComp;datatype:string,name:IdSupervisor;datatype:int,name:Tasa;datatype:real,name:HorasEstimadas;datatype:int,name:MesEjecucion;datatype:string,name:AnnoEjecucion;datatype:string,name:activo;datatype:int" />
+	<infoitem key="UD_verGrupo" value="name:IdGrupo;datatype:int,name:Nombre;datatype:string" />
+	<infoitem key="UD_verEmpresa" value="name:CodEmp;datatype:int,name:Nombre;datatype:string" />
+</info>

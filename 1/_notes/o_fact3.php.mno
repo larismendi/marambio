@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_ofact" value="name:idOP;datatype:int,name:IdTarea;datatype:int,name:IdGrupo;datatype:int,name:IdEmpresa;datatype:int,name:fechaEsp;datatype:string,name:fechaIng;datatype:string,name:concepto;datatype:blob,name:monto;datatype:real,name:horas;datatype:int" />
+	<infoitem key="UD_tarea" value="name:IdTarea;datatype:int,name:IdGrupo;datatype:int,name:IdEmpresa;datatype:int,name:IdUnidad;datatype:int,name:IdServicio;datatype:int,name:IdLider;datatype:int,name:Dia;datatype:string,name:Mes;datatype:string,name:Anno;datatype:string,name:AnnoMes;datatype:string,name:FEspanol;datatype:string,name:FIngles;datatype:string,name:CodificacionComp;datatype:string,name:IdSupervisor;datatype:int,name:Tasa;datatype:real,name:HorasEstimadas;datatype:int,name:HorasSocio;datatype:int,name:HorasGerente;datatype:int,name:HorasEncargado;datatype:int,name:HorasAsistente;datatype:int,name:MesEjecucion;datatype:string,name:AnnoEjecucion;datatype:string,name:activo;datatype:int,name:cerradoPor;datatype:int" />
+	<infoitem key="UD_serv" value="name:IdServicio;datatype:int,name:CodCont;datatype:string,name:Servicio;datatype:string" />
+	<infoitem key="UD_empresa" value="name:CodEmp;datatype:int,name:CodGrupo;datatype:int,name:CodCont;datatype:string,name:Nombre;datatype:string,name:Direccion;datatype:string,name:Telefonos;datatype:string,name:Fax;datatype:string,name:PersonaEnc;datatype:string,name:email;datatype:string" />
+</info>

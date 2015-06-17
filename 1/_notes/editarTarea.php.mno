@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_quienEs" value="name:id;datatype:int,name:session2000;datatype:string,name:IdUsuario;datatype:int,name:FDia;datatype:string,name:FMes;datatype:string,name:FAnno;datatype:string,name:FEspanol;datatype:string,name:FIngles;datatype:string,name:ip;datatype:blob,name:nivel;datatype:int" />
+	<infoitem key="UD_supervisor" value="name:IdUsuario;datatype:int,name:IdUnidad;datatype:int,name:Nombre;datatype:string,name:Usuario;datatype:string,name:Pass;datatype:string,name:Nivel;datatype:int,name:Cargo;datatype:string,name:Telefono;datatype:string,name:Ext;datatype:string" />
+	<infoitem key="UD_tasaList" value="name:IdTasa;datatype:int,name:CodCont;datatype:string,name:Nombre;datatype:string,name:Monto;datatype:real" />
+	<infoitem key="UD_unidadesList" value="name:IdUnidad;datatype:int,name:Nombre;datatype:string" />
+	<infoitem key="UD_serviciosList" value="name:IdServicio;datatype:int,name:CodCont;datatype:string,name:Servicio;datatype:string" />
+	<infoitem key="UD_Lider" value="name:IdUsuario;datatype:int,name:Nombre;datatype:string" />
+	<infoitem key="UD_TasaFijaFinal" value="name:IdTasa;datatype:int,name:CodCont;datatype:string,name:Nombre;datatype:string,name:Monto;datatype:real" />
+	<infoitem key="UD_grupo" value="name:IdGrupo;datatype:int,name:Nombre;datatype:string" />
+	<infoitem key="UD_GrupoList" value="name:IdGrupo;datatype:int,name:Nombre;datatype:string,name:Direccion;datatype:blob,name:Telefonos;datatype:string,name:Fax;datatype:string,name:PersonaContac;datatype:string" />
+	<infoitem key="UD_empresaList" value="name:CodEmp;datatype:int,name:Nombre;datatype:string" />
+	<infoitem key="UD_tarea" value="name:IdTarea;datatype:int,name:IdGrupo;datatype:int,name:IdEmpresa;datatype:int,name:IdUnidad;datatype:int,name:IdServicio;datatype:int,name:IdLider;datatype:int,name:Dia;datatype:string,name:Mes;datatype:string,name:Anno;datatype:string,name:AnnoMes;datatype:string,name:FEspanol;datatype:string,name:FIngles;datatype:string,name:CodificacionComp;datatype:string,name:IdSupervisor;datatype:int,name:Tasa;datatype:real,name:HorasEstimadas;datatype:int,name:HorasSocio;datatype:int,name:HorasGerente;datatype:int,name:HorasEncargado;datatype:int,name:HorasAsistente;datatype:int,name:porcAvance;datatype:int,name:MesEjecucion;datatype:string,name:AnnoEjecucion;datatype:string,name:activo;datatype:int,name:cerradoPor;datatype:int" />
+	<infoitem key="UD_grupoList" value="name:IdGrupo;datatype:int,name:Nombre;datatype:string,name:Direccion;datatype:blob,name:Telefonos;datatype:string,name:Fax;datatype:string,name:PersonaContac;datatype:string" />
+	<infoitem key="UD_unidadList" value="name:IdUnidad;datatype:int,name:Nombre;datatype:string" />
+	<infoitem key="UD_serviList" value="name:IdServicio;datatype:int,name:Servicio;datatype:string" />
+	<infoitem key="UD_liderList" value="name:IdUsuario;datatype:int,name:Nombre;datatype:string" />
+</info>

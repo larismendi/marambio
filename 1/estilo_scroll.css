@@ -1,0 +1,16 @@
+body { 
+scrollbar-face-color: #E9EBF2; 
+scrollbar-shadow-color: #405FB6; 
+scrollbar-highlight-color: #FFFFFF; 
+scrollbar-3dlight-color: #ABC1EE; 
+scrollbar-darkshadow-color: #5D5F65; 
+scrollbar-track-color: #4C76D4; 
+scrollbar-arrow-color: #FFFFFF; }
+.bordergris {
+	background-color: #ADC3DB;
+	border: 1px solid #ADC3DB;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #ADC3DB;
+	text-decoration: none;
+}

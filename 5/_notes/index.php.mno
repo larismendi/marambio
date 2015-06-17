@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_quien" value="name:IdSupervisor;datatype:int,name:Nombre;datatype:string,name:Usuario;datatype:string,name:Pass;datatype:string" />
+</info>

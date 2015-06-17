@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_quienEs" value="name:id;datatype:int,name:session2000;datatype:string,name:idTecnico;datatype:int,name:FDia;datatype:string,name:FMes;datatype:string,name:FAnno;datatype:string,name:FEspanol;datatype:string,name:FIngles;datatype:string" />
+	<infoitem key="UD_supervisor" value="name:IdSupervisor;datatype:int,name:Nombre;datatype:string,name:Usuario;datatype:string,name:Pass;datatype:string" />
+	<infoitem key="UD_ultimaSession" value="name:id;datatype:int,name:session2000;datatype:string,name:idTecnico;datatype:int,name:FDia;datatype:string,name:FMes;datatype:string,name:FAnno;datatype:string,name:FEspanol;datatype:string,name:FIngles;datatype:string" />
+	<infoitem key="UD_data" value="name:IdGrupo;datatype:int,name:Nombre;datatype:string,name:Direccion;datatype:blob,name:Telefonos;datatype:string,name:Fax;datatype:string,name:PersonaContac;datatype:string" />
+	<infoitem key="UD_empresas" value="name:CodEmp;datatype:int,name:CodGrupo;datatype:int,name:CodCont;datatype:string,name:Nombre;datatype:string,name:Direccion;datatype:string,name:Telefonos;datatype:string,name:Fax;datatype:string,name:PersonaEnc;datatype:string,name:email;datatype:string" />
+</info>
