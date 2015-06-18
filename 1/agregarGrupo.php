@@ -40,28 +40,29 @@ if (isset($_SERVER['QUERY_STRING'])) {
 }
 
 if ((isset($_POST["MM_insert"])) && ($_POST["MM_insert"] == "form1")) {
+    mysql_select_db($database_marambio, $marambio);
 	$nombre = strtoupper($_POST['Nombre']);
 	$sss = "SELECT * FROM grupos WHERE Nombre = '$nombre' OR Nombre = '".$_POST['Nombre']."'";
 	$e_sss = mysql_query($sss, $marambio) or die (mysql_error());
 	$f_sss = mysql_fetch_assoc($e_sss);
 
 	if(!$f_sss){
-  $insertSQL = sprintf("INSERT INTO grupos (Nombre, Direccion, Telefonos, Fax, PersonaContac) VALUES (%s, %s, %s, %s, %s)",
+        $insertSQL = sprintf("INSERT INTO grupos (Nombre, Direccion, Telefonos, Fax, PersonaContac) VALUES (%s, %s, %s, %s, %s)",
                        GetSQLValueString($_POST['Nombre'], "text"),
                        GetSQLValueString($_POST['Direccion'], "text"),
                        GetSQLValueString($_POST['Telefonos'], "text"),
                        GetSQLValueString($_POST['Fax'], "text"),
                        GetSQLValueString($_POST['PersonaContac'], "text"));
 
-  mysql_select_db($database_marambio, $marambio);
-  $Result1 = mysql_query($insertSQL, $marambio) or die(mysql_error());
 
-  $insertGoTo = "grupos.php";
-  if (isset($_SERVER['QUERY_STRING'])) {
-    $insertGoTo .= (strpos($insertGoTo, '?')) ? "&" : "?";
-    $insertGoTo .= $_SERVER['QUERY_STRING'];
-  }
-  header(sprintf("Location: %s", $insertGoTo));
+        $Result1 = mysql_query($insertSQL, $marambio) or die(mysql_error());
+
+        $insertGoTo = "grupos.php";
+        if (isset($_SERVER['QUERY_STRING'])) {
+            $insertGoTo .= (strpos($insertGoTo, '?')) ? "&" : "?";
+            $insertGoTo .= $_SERVER['QUERY_STRING'];
+        }
+        header(sprintf("Location: %s", $insertGoTo));
 	}else{
 		$mensaje = "El grupo ya existe, intente con otro nombre";
 	}
